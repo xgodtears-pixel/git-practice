@@ -14,5 +14,5 @@ long long factorial(int x) {
 
 int main() {
     long long res = factorial(20);
-    cout << "Result: " << res << endl;
+    cout << "20! = " << res << endl;
 }
