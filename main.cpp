@@ -22,7 +22,7 @@ double findE(int steps) {
 
 int main() {
     long long resF = factorial(10);
-    double resE = findE(10);
+    double resE = findE(12);
     cout << "10! = " << resF << endl;
-    cout << "e = " << resE << endl;
+    cout << "Число e = " << resE << endl;
 }
