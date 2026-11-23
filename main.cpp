@@ -11,6 +11,7 @@ long long factorial(int x) {
     return res;
 }
 
+// Вычисление числа e как суммы ряда 1/n!
 double findE(int steps) {
     double e = 1.0;
     for (int i = 1; i <= steps; ++i)
@@ -22,7 +23,7 @@ double findE(int steps) {
 
 int main() {
     long long resF = factorial(10);
-    double resE = findE(12);
+    double resE = findE(15);
     cout << "10! = " << resF << endl;
     cout << "Число e = " << resE << endl;
 }
